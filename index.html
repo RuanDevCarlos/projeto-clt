@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <title>Formulário</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div id="esquerda">
+            <img src="imagens/favicon.png" alt="Mesa de trabalho">
+            <h1>CLT Premium</h1>
+        </div>
+        <div id="direita">
+            <button>Sign up</button>
+            <button>Login</button>
+        </div>
+    </header>
+    <main class="conteudo">
+        <section id="textoCentral">
+            <h1>CLT Premium</h1>
+            <h2>Trabalhe para o resto da vida</h2>
+        </section>
+
+        <section id="formulario">
+            <form>
+                <label class="formElementos">Nome</label>
+                <input type="text" placeholder="Digíte seu Nome aqui">
+
+                <label class="formElementos">E-mail</label>
+                <input type="email" placeholder="Dígite seu E-mail">
+
+                <label class="formElementos">Idade (Opicional)</label>
+                <input type="number" placeholder="Quantos anos você tem?">
+
+                <label class="formElementos">Qual opção melhor te descreve no momento?</label>
+                <select name="opcoes">
+                    <option value="">Estudante</option>
+                    <option value="">Empregado</option>
+                    <option value="">Estágio</option>
+                    <option value="">Prefiro não dizer</option>
+                    <option value="">Outro</option>
+                </select>
+
+                <label class="formElementos">Em que área você pretende trabalhar conosco?</label>
+                <label class="formElementos">
+                    <input type="checkbox"> Front-end
+                </label>
+                <label for="" class="formElementos">
+                    <input type="checkbox"> Back-end
+                </label>
+                <label for="" class="formElementos">
+                    <input type="checkbox"> edição de Vídeos
+                </label>
+                <label for="" class="formElementos">
+                    <input type="checkbox"> Design Gráfico
+                </label>
+                <label for="" class="formElementos">
+                    <input type="checkbox"> Full Stack
+                </label>
+
+                <label class="formElementos">Algum comentário ou sugestão?</label>
+                <textarea name=""></textarea>
+
+                <button id="botaoFinal">Enviar</button>
+            </form>
+
+            
+        </section>
+    </main>
+</body>
+</html>
